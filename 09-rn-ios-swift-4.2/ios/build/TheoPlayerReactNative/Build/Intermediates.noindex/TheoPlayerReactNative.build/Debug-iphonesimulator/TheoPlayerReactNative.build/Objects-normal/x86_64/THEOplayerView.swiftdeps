@@ -1,0 +1,1208 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "THEOplayerView"
+provides-nominal:
+- "21TheoPlayerReactNative14THEOplayerViewC"
+provides-member:
+- ["21TheoPlayerReactNative14THEOplayerViewC", ""]
+provides-dynamic-lookup:
+- "layoutSubviews"
+- "setAutoplay"
+- "setFullscreenOrientationCoupling"
+- "setOnPause"
+- "setOnPlay"
+- "setOnSeek"
+- "setSource"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "AppDelegate"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- "CastingPrecedence"
+- !private "ConvivaConfiguration"
+- !private "ConvivaContentMetadata"
+- "Dictionary"
+- !private "EventEmitter"
+- "EventListener"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSCoder"
+- !private "PlayerEventTypes"
+- "RCTBubblingEventBlock"
+- "SourceDescription"
+- "String"
+- !private "StringLiteralType"
+- "THEOplayer"
+- !private "THEOplayerConfiguration"
+- "THEOplayerView"
+- !private "UIApplication"
+- "UIView"
+- !private "YouboraOptions"
+- !private "fatalError"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["13THEOplayerSDK20AnalyticsDescriptionP", "init"]
+- !private ["13THEOplayerSDK20AnalyticsDescriptionP", "put"]
+- !private ["So11AppDelegateC", "castContextSet"]
+- !private ["Sa", "compactMap"]
+- !private ["s13ArrayProtocolP", "compactMap"]
+- !private ["So18UIViewAutoresizingV", "flexibleBottomMargin"]
+- !private ["So18UIViewAutoresizingV", "flexibleHeight"]
+- !private ["So18UIViewAutoresizingV", "flexibleLeftMargin"]
+- !private ["So18UIViewAutoresizingV", "flexibleRightMargin"]
+- !private ["So18UIViewAutoresizingV", "flexibleTopMargin"]
+- !private ["So18UIViewAutoresizingV", "flexibleWidth"]
+- !private ["SK", "compactMap"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "path"]
+- !private ["So15CALayerDelegateP", "Bundle"]
+- !private ["So15CALayerDelegateP", "ConvivaConfiguration"]
+- !private ["So15CALayerDelegateP", "ConvivaContentMetadata"]
+- !private ["So15CALayerDelegateP", "EventEmitter"]
+- !private ["So15CALayerDelegateP", "PlayerEventTypes"]
+- !private ["So15CALayerDelegateP", "THEOplayer"]
+- !private ["So15CALayerDelegateP", "THEOplayerConfiguration"]
+- !private ["So15CALayerDelegateP", "UIApplication"]
+- !private ["So15CALayerDelegateP", "YouboraOptions"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "fatalError"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "layoutSubviews"]
+- !private ["So15CALayerDelegateP", "listeners"]
+- !private ["So15CALayerDelegateP", "onPause"]
+- !private ["So15CALayerDelegateP", "onPlay"]
+- !private ["So15CALayerDelegateP", "onSeek"]
+- !private ["So15CALayerDelegateP", "player"]
+- !private ["So15CALayerDelegateP", "print"]
+- !private ["So6CGRectV", "zero"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "ConvivaConfiguration"]
+- !private ["s7CVarArgP", "ConvivaContentMetadata"]
+- !private ["s7CVarArgP", "EventEmitter"]
+- !private ["s7CVarArgP", "PlayerEventTypes"]
+- !private ["s7CVarArgP", "THEOplayer"]
+- !private ["s7CVarArgP", "THEOplayerConfiguration"]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "YouboraOptions"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addAsSubview"]
+- !private ["s7CVarArgP", "addEventListener"]
+- !private ["s7CVarArgP", "autoplay"]
+- !private ["s7CVarArgP", "autoresizingMask"]
+- !private ["s7CVarArgP", "castContextSet"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "evaluateJavaScript"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "fullscreenOrientationCoupling"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "layoutSubviews"]
+- !private ["s7CVarArgP", "listeners"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "onPause"]
+- !private ["s7CVarArgP", "onPlay"]
+- !private ["s7CVarArgP", "onSeek"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "player"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "put"]
+- !private ["s7CVarArgP", "removeEventListener"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "source"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["13THEOplayerSDK20ConvivaConfigurationC", "init"]
+- !private ["13THEOplayerSDK22ConvivaContentMetadataC", "init"]
+- !private ["13THEOplayerSDK16CurrentTimeEventC", "currentTime"]
+- !private ["13THEOplayerSDK16CurrentTimeEventC", "type"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "ConvivaConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "ConvivaContentMetadata"]
+- !private ["s28CustomDebugStringConvertibleP", "EventEmitter"]
+- !private ["s28CustomDebugStringConvertibleP", "PlayerEventTypes"]
+- !private ["s28CustomDebugStringConvertibleP", "THEOplayer"]
+- !private ["s28CustomDebugStringConvertibleP", "THEOplayerConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "YouboraOptions"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAsSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "addEventListener"]
+- !private ["s28CustomDebugStringConvertibleP", "autoplay"]
+- !private ["s28CustomDebugStringConvertibleP", "autoresizingMask"]
+- !private ["s28CustomDebugStringConvertibleP", "castContextSet"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "evaluateJavaScript"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "fullscreenOrientationCoupling"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "layoutSubviews"]
+- !private ["s28CustomDebugStringConvertibleP", "listeners"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "onPause"]
+- !private ["s28CustomDebugStringConvertibleP", "onPlay"]
+- !private ["s28CustomDebugStringConvertibleP", "onSeek"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "player"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "put"]
+- !private ["s28CustomDebugStringConvertibleP", "removeEventListener"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "source"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "ConvivaConfiguration"]
+- !private ["s23CustomStringConvertibleP", "ConvivaContentMetadata"]
+- !private ["s23CustomStringConvertibleP", "EventEmitter"]
+- !private ["s23CustomStringConvertibleP", "PlayerEventTypes"]
+- !private ["s23CustomStringConvertibleP", "THEOplayer"]
+- !private ["s23CustomStringConvertibleP", "THEOplayerConfiguration"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "YouboraOptions"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addAsSubview"]
+- !private ["s23CustomStringConvertibleP", "addEventListener"]
+- !private ["s23CustomStringConvertibleP", "autoplay"]
+- !private ["s23CustomStringConvertibleP", "autoresizingMask"]
+- !private ["s23CustomStringConvertibleP", "castContextSet"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "evaluateJavaScript"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "fullscreenOrientationCoupling"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layoutSubviews"]
+- !private ["s23CustomStringConvertibleP", "listeners"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "onPause"]
+- !private ["s23CustomStringConvertibleP", "onPlay"]
+- !private ["s23CustomStringConvertibleP", "onSeek"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "player"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "put"]
+- !private ["s23CustomStringConvertibleP", "removeEventListener"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "source"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "put"]
+- !private ["Se", "subscript"]
+- !private ["Se", "zero"]
+- !private ["SD", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "put"]
+- !private ["SE", "subscript"]
+- !private ["SE", "zero"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "ConvivaConfiguration"]
+- !private ["SQ", "ConvivaContentMetadata"]
+- !private ["SQ", "EventEmitter"]
+- !private ["SQ", "PlayerEventTypes"]
+- !private ["SQ", "THEOplayer"]
+- !private ["SQ", "THEOplayerConfiguration"]
+- !private ["SQ", "UIApplication"]
+- !private ["SQ", "YouboraOptions"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addAsSubview"]
+- !private ["SQ", "addEventListener"]
+- !private ["SQ", "autoplay"]
+- !private ["SQ", "autoresizingMask"]
+- !private ["SQ", "castContextSet"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "evaluateJavaScript"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "flexibleBottomMargin"]
+- !private ["SQ", "flexibleHeight"]
+- !private ["SQ", "flexibleLeftMargin"]
+- !private ["SQ", "flexibleRightMargin"]
+- !private ["SQ", "flexibleTopMargin"]
+- !private ["SQ", "flexibleWidth"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "fullscreenOrientationCoupling"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "layoutSubviews"]
+- !private ["SQ", "listeners"]
+- !private ["SQ", "main"]
+- !private ["SQ", "onPause"]
+- !private ["SQ", "onPlay"]
+- !private ["SQ", "onSeek"]
+- !private ["SQ", "path"]
+- !private ["SQ", "player"]
+- !private ["SQ", "print"]
+- !private ["SQ", "put"]
+- !private ["SQ", "removeEventListener"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "source"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "zero"]
+- !private ["13THEOplayerSDK23EventDispatcherProtocolP", "addAsSubview"]
+- !private ["13THEOplayerSDK23EventDispatcherProtocolP", "addEventListener"]
+- !private ["13THEOplayerSDK23EventDispatcherProtocolP", "autoplay"]
+- !private ["13THEOplayerSDK23EventDispatcherProtocolP", "autoresizingMask"]
+- !private ["13THEOplayerSDK23EventDispatcherProtocolP", "evaluateJavaScript"]
+- !private ["13THEOplayerSDK23EventDispatcherProtocolP", "frame"]
+- !private ["13THEOplayerSDK23EventDispatcherProtocolP", "fullscreenOrientationCoupling"]
+- !private ["13THEOplayerSDK23EventDispatcherProtocolP", "init"]
+- !private ["13THEOplayerSDK23EventDispatcherProtocolP", "removeEventListener"]
+- !private ["13THEOplayerSDK23EventDispatcherProtocolP", "source"]
+- !private ["21TheoPlayerReactNative12EventEmitterC", "registerPlayer"]
+- !private ["21TheoPlayerReactNative12EventEmitterC", "sharedInstance"]
+- !private ["13THEOplayerSDK13EventProtocolP", "currentTime"]
+- !private ["13THEOplayerSDK13EventProtocolP", "type"]
+- !private ["13THEOplayerSDK9EventTypeC", "name"]
+- !private ["13THEOplayerSDK17EventTypeProtocolP", "name"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "flexibleBottomMargin"]
+- !private ["s25ExpressibleByArrayLiteralP", "flexibleHeight"]
+- !private ["s25ExpressibleByArrayLiteralP", "flexibleLeftMargin"]
+- !private ["s25ExpressibleByArrayLiteralP", "flexibleRightMargin"]
+- !private ["s25ExpressibleByArrayLiteralP", "flexibleTopMargin"]
+- !private ["s25ExpressibleByArrayLiteralP", "flexibleWidth"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "ConvivaConfiguration"]
+- !private ["SH", "ConvivaContentMetadata"]
+- !private ["SH", "EventEmitter"]
+- !private ["SH", "PlayerEventTypes"]
+- !private ["SH", "THEOplayer"]
+- !private ["SH", "THEOplayerConfiguration"]
+- !private ["SH", "UIApplication"]
+- !private ["SH", "YouboraOptions"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addAsSubview"]
+- !private ["SH", "addEventListener"]
+- !private ["SH", "autoplay"]
+- !private ["SH", "autoresizingMask"]
+- !private ["SH", "castContextSet"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "delegate"]
+- !private ["SH", "evaluateJavaScript"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "frame"]
+- !private ["SH", "fullscreenOrientationCoupling"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "layoutSubviews"]
+- !private ["SH", "listeners"]
+- !private ["SH", "main"]
+- !private ["SH", "onPause"]
+- !private ["SH", "onPlay"]
+- !private ["SH", "onSeek"]
+- !private ["SH", "path"]
+- !private ["SH", "player"]
+- !private ["SH", "print"]
+- !private ["SH", "put"]
+- !private ["SH", "removeEventListener"]
+- !private ["SH", "shared"]
+- !private ["SH", "source"]
+- !private ["SH", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "compactMap"]
+- !private ["So8NSCodingP", "Bundle"]
+- !private ["So8NSCodingP", "ConvivaConfiguration"]
+- !private ["So8NSCodingP", "ConvivaContentMetadata"]
+- !private ["So8NSCodingP", "EventEmitter"]
+- !private ["So8NSCodingP", "PlayerEventTypes"]
+- !private ["So8NSCodingP", "THEOplayer"]
+- !private ["So8NSCodingP", "THEOplayerConfiguration"]
+- !private ["So8NSCodingP", "UIApplication"]
+- !private ["So8NSCodingP", "YouboraOptions"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layoutSubviews"]
+- !private ["So8NSCodingP", "listeners"]
+- !private ["So8NSCodingP", "onPause"]
+- !private ["So8NSCodingP", "onPlay"]
+- !private ["So8NSCodingP", "onSeek"]
+- !private ["So8NSCodingP", "player"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSObjectC", "AppDelegate"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "ConvivaConfiguration"]
+- !private ["So8NSObjectC", "ConvivaContentMetadata"]
+- !private ["So8NSObjectC", "EventEmitter"]
+- ["So8NSObjectC", "EventListener"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "PlayerEventTypes"]
+- ["So8NSObjectC", "RCTBubblingEventBlock"]
+- ["So8NSObjectC", "SourceDescription"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "THEOplayer"]
+- !private ["So8NSObjectC", "THEOplayerConfiguration"]
+- !private ["So8NSObjectC", "UIApplication"]
+- !private ["So8NSObjectC", "YouboraOptions"]
+- !private ["So8NSObjectC", "addAsSubview"]
+- !private ["So8NSObjectC", "addEventListener"]
+- !private ["So8NSObjectC", "autoplay"]
+- !private ["So8NSObjectC", "autoresizingMask"]
+- !private ["So8NSObjectC", "castContextSet"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "evaluateJavaScript"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "fullscreenOrientationCoupling"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "layoutSubviews"]
+- ["So8NSObjectC", "listeners"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "onPause"]
+- ["So8NSObjectC", "onPlay"]
+- ["So8NSObjectC", "onSeek"]
+- !private ["So8NSObjectC", "path"]
+- ["So8NSObjectC", "player"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "put"]
+- !private ["So8NSObjectC", "removeEventListener"]
+- ["So8NSObjectC", "setAutoplay"]
+- ["So8NSObjectC", "setFullscreenOrientationCoupling"]
+- ["So8NSObjectC", "setOnPause"]
+- ["So8NSObjectC", "setOnPlay"]
+- ["So8NSObjectC", "setOnSeek"]
+- ["So8NSObjectC", "setSource"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "source"]
+- !private ["So8NSObjectP", "Bundle"]
+- !private ["So8NSObjectP", "ConvivaConfiguration"]
+- !private ["So8NSObjectP", "ConvivaContentMetadata"]
+- !private ["So8NSObjectP", "EventEmitter"]
+- !private ["So8NSObjectP", "PlayerEventTypes"]
+- !private ["So8NSObjectP", "THEOplayer"]
+- !private ["So8NSObjectP", "THEOplayerConfiguration"]
+- !private ["So8NSObjectP", "UIApplication"]
+- !private ["So8NSObjectP", "YouboraOptions"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addAsSubview"]
+- !private ["So8NSObjectP", "addEventListener"]
+- !private ["So8NSObjectP", "autoplay"]
+- !private ["So8NSObjectP", "autoresizingMask"]
+- !private ["So8NSObjectP", "castContextSet"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "evaluateJavaScript"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "fullscreenOrientationCoupling"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "layoutSubviews"]
+- !private ["So8NSObjectP", "listeners"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "onPause"]
+- !private ["So8NSObjectP", "onPlay"]
+- !private ["So8NSObjectP", "onSeek"]
+- !private ["So8NSObjectP", "path"]
+- !private ["So8NSObjectP", "player"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "put"]
+- !private ["So8NSObjectP", "removeEventListener"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "source"]
+- !private ["s9OptionSetP", "flexibleBottomMargin"]
+- !private ["s9OptionSetP", "flexibleHeight"]
+- !private ["s9OptionSetP", "flexibleLeftMargin"]
+- !private ["s9OptionSetP", "flexibleRightMargin"]
+- !private ["s9OptionSetP", "flexibleTopMargin"]
+- !private ["s9OptionSetP", "flexibleWidth"]
+- !private ["13THEOplayerSDK10PauseEventC", "currentTime"]
+- !private ["13THEOplayerSDK10PauseEventC", "type"]
+- !private ["13THEOplayerSDK9PlayEventC", "currentTime"]
+- !private ["13THEOplayerSDK9PlayEventC", "type"]
+- !private ["13THEOplayerSDK16PlayerEventTypesV", "PAUSE"]
+- !private ["13THEOplayerSDK16PlayerEventTypesV", "PLAY"]
+- !private ["13THEOplayerSDK16PlayerEventTypesV", "SEEKED"]
+- !private ["So17RCTBridgeDelegateP", "castContextSet"]
+- !private ["So12RCTComponentP", "Bundle"]
+- !private ["So12RCTComponentP", "ConvivaConfiguration"]
+- !private ["So12RCTComponentP", "ConvivaContentMetadata"]
+- !private ["So12RCTComponentP", "EventEmitter"]
+- !private ["So12RCTComponentP", "PlayerEventTypes"]
+- !private ["So12RCTComponentP", "THEOplayer"]
+- !private ["So12RCTComponentP", "THEOplayerConfiguration"]
+- !private ["So12RCTComponentP", "UIApplication"]
+- !private ["So12RCTComponentP", "YouboraOptions"]
+- ["So12RCTComponentP", ""]
+- !private ["So12RCTComponentP", "fatalError"]
+- !private ["So12RCTComponentP", "frame"]
+- !private ["So12RCTComponentP", "init"]
+- !private ["So12RCTComponentP", "layoutSubviews"]
+- !private ["So12RCTComponentP", "listeners"]
+- !private ["So12RCTComponentP", "onPause"]
+- !private ["So12RCTComponentP", "onPlay"]
+- !private ["So12RCTComponentP", "onSeek"]
+- !private ["So12RCTComponentP", "player"]
+- !private ["So12RCTComponentP", "print"]
+- !private ["Sk", "compactMap"]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "flexibleBottomMargin"]
+- !private ["SY", "flexibleHeight"]
+- !private ["SY", "flexibleLeftMargin"]
+- !private ["SY", "flexibleRightMargin"]
+- !private ["SY", "flexibleTopMargin"]
+- !private ["SY", "flexibleWidth"]
+- !private ["13THEOplayerSDK11SanitisableP", "_getBuiltinLogicValue"]
+- !private ["13THEOplayerSDK11SanitisableP", "compactMap"]
+- !private ["13THEOplayerSDK11SanitisableP", "init"]
+- !private ["13THEOplayerSDK11SanitisableP", "init"]
+- !private ["13THEOplayerSDK11SanitisableP", "subscript"]
+- !private ["13THEOplayerSDK11SeekedEventC", "currentTime"]
+- !private ["13THEOplayerSDK11SeekedEventC", "type"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "flexibleBottomMargin"]
+- !private ["s10SetAlgebraP", "flexibleHeight"]
+- !private ["s10SetAlgebraP", "flexibleLeftMargin"]
+- !private ["s10SetAlgebraP", "flexibleRightMargin"]
+- !private ["s10SetAlgebraP", "flexibleTopMargin"]
+- !private ["s10SetAlgebraP", "flexibleWidth"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["13THEOplayerSDK0A0C", "addAsSubview"]
+- !private ["13THEOplayerSDK0A0C", "addEventListener"]
+- !private ["13THEOplayerSDK0A0C", "autoplay"]
+- !private ["13THEOplayerSDK0A0C", "autoresizingMask"]
+- !private ["13THEOplayerSDK0A0C", "evaluateJavaScript"]
+- !private ["13THEOplayerSDK0A0C", "frame"]
+- !private ["13THEOplayerSDK0A0C", "fullscreenOrientationCoupling"]
+- !private ["13THEOplayerSDK0A0C", "init"]
+- !private ["13THEOplayerSDK0A0C", "removeEventListener"]
+- !private ["13THEOplayerSDK0A0C", "source"]
+- !private ["13THEOplayerSDK0A13ConfigurationC", "init"]
+- !private ["21TheoPlayerReactNative14THEOplayerViewC", "AppDelegate"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "Bool"]
+- !private ["21TheoPlayerReactNative14THEOplayerViewC", "Bundle"]
+- !private ["21TheoPlayerReactNative14THEOplayerViewC", "ConvivaConfiguration"]
+- !private ["21TheoPlayerReactNative14THEOplayerViewC", "ConvivaContentMetadata"]
+- !private ["21TheoPlayerReactNative14THEOplayerViewC", "EventEmitter"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "EventListener"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "NSCoder"]
+- !private ["21TheoPlayerReactNative14THEOplayerViewC", "PlayerEventTypes"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "RCTBubblingEventBlock"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "SourceDescription"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "String"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "THEOplayer"]
+- !private ["21TheoPlayerReactNative14THEOplayerViewC", "THEOplayerConfiguration"]
+- !private ["21TheoPlayerReactNative14THEOplayerViewC", "UIApplication"]
+- !private ["21TheoPlayerReactNative14THEOplayerViewC", "YouboraOptions"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "deinit"]
+- !private ["21TheoPlayerReactNative14THEOplayerViewC", "fatalError"]
+- !private ["21TheoPlayerReactNative14THEOplayerViewC", "frame"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "init"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "layoutSubviews"]
+- !private ["21TheoPlayerReactNative14THEOplayerViewC", "listeners"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "onPause"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "onPlay"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "onSeek"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "player"]
+- !private ["21TheoPlayerReactNative14THEOplayerViewC", "print"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "setAutoplay"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "setFullscreenOrientationCoupling"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "setOnPause"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "setOnPlay"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "setOnSeek"]
+- ["21TheoPlayerReactNative14THEOplayerViewC", "setSource"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "Bundle"]
+- !private ["So29UIAccessibilityIdentificationP", "ConvivaConfiguration"]
+- !private ["So29UIAccessibilityIdentificationP", "ConvivaContentMetadata"]
+- !private ["So29UIAccessibilityIdentificationP", "EventEmitter"]
+- !private ["So29UIAccessibilityIdentificationP", "PlayerEventTypes"]
+- !private ["So29UIAccessibilityIdentificationP", "THEOplayer"]
+- !private ["So29UIAccessibilityIdentificationP", "THEOplayerConfiguration"]
+- !private ["So29UIAccessibilityIdentificationP", "UIApplication"]
+- !private ["So29UIAccessibilityIdentificationP", "YouboraOptions"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "fatalError"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "layoutSubviews"]
+- !private ["So29UIAccessibilityIdentificationP", "listeners"]
+- !private ["So29UIAccessibilityIdentificationP", "onPause"]
+- !private ["So29UIAccessibilityIdentificationP", "onPlay"]
+- !private ["So29UIAccessibilityIdentificationP", "onSeek"]
+- !private ["So29UIAccessibilityIdentificationP", "player"]
+- !private ["So29UIAccessibilityIdentificationP", "print"]
+- !private ["So12UIAppearanceP", "Bundle"]
+- !private ["So12UIAppearanceP", "ConvivaConfiguration"]
+- !private ["So12UIAppearanceP", "ConvivaContentMetadata"]
+- !private ["So12UIAppearanceP", "EventEmitter"]
+- !private ["So12UIAppearanceP", "PlayerEventTypes"]
+- !private ["So12UIAppearanceP", "THEOplayer"]
+- !private ["So12UIAppearanceP", "THEOplayerConfiguration"]
+- !private ["So12UIAppearanceP", "UIApplication"]
+- !private ["So12UIAppearanceP", "YouboraOptions"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "fatalError"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "layoutSubviews"]
+- !private ["So12UIAppearanceP", "listeners"]
+- !private ["So12UIAppearanceP", "onPause"]
+- !private ["So12UIAppearanceP", "onPlay"]
+- !private ["So12UIAppearanceP", "onSeek"]
+- !private ["So12UIAppearanceP", "player"]
+- !private ["So12UIAppearanceP", "print"]
+- !private ["So21UIAppearanceContainerP", "Bundle"]
+- !private ["So21UIAppearanceContainerP", "ConvivaConfiguration"]
+- !private ["So21UIAppearanceContainerP", "ConvivaContentMetadata"]
+- !private ["So21UIAppearanceContainerP", "EventEmitter"]
+- !private ["So21UIAppearanceContainerP", "PlayerEventTypes"]
+- !private ["So21UIAppearanceContainerP", "THEOplayer"]
+- !private ["So21UIAppearanceContainerP", "THEOplayerConfiguration"]
+- !private ["So21UIAppearanceContainerP", "UIApplication"]
+- !private ["So21UIAppearanceContainerP", "YouboraOptions"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "layoutSubviews"]
+- !private ["So21UIAppearanceContainerP", "listeners"]
+- !private ["So21UIAppearanceContainerP", "onPause"]
+- !private ["So21UIAppearanceContainerP", "onPlay"]
+- !private ["So21UIAppearanceContainerP", "onSeek"]
+- !private ["So21UIAppearanceContainerP", "player"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So13UIApplicationC", "delegate"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So21UIApplicationDelegateP", "castContextSet"]
+- !private ["So17UICoordinateSpaceP", "Bundle"]
+- !private ["So17UICoordinateSpaceP", "ConvivaConfiguration"]
+- !private ["So17UICoordinateSpaceP", "ConvivaContentMetadata"]
+- !private ["So17UICoordinateSpaceP", "EventEmitter"]
+- !private ["So17UICoordinateSpaceP", "PlayerEventTypes"]
+- !private ["So17UICoordinateSpaceP", "THEOplayer"]
+- !private ["So17UICoordinateSpaceP", "THEOplayerConfiguration"]
+- !private ["So17UICoordinateSpaceP", "UIApplication"]
+- !private ["So17UICoordinateSpaceP", "YouboraOptions"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "fatalError"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "layoutSubviews"]
+- !private ["So17UICoordinateSpaceP", "listeners"]
+- !private ["So17UICoordinateSpaceP", "onPause"]
+- !private ["So17UICoordinateSpaceP", "onPlay"]
+- !private ["So17UICoordinateSpaceP", "onSeek"]
+- !private ["So17UICoordinateSpaceP", "player"]
+- !private ["So17UICoordinateSpaceP", "print"]
+- !private ["So13UIDynamicItemP", "Bundle"]
+- !private ["So13UIDynamicItemP", "ConvivaConfiguration"]
+- !private ["So13UIDynamicItemP", "ConvivaContentMetadata"]
+- !private ["So13UIDynamicItemP", "EventEmitter"]
+- !private ["So13UIDynamicItemP", "PlayerEventTypes"]
+- !private ["So13UIDynamicItemP", "THEOplayer"]
+- !private ["So13UIDynamicItemP", "THEOplayerConfiguration"]
+- !private ["So13UIDynamicItemP", "UIApplication"]
+- !private ["So13UIDynamicItemP", "YouboraOptions"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "fatalError"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "layoutSubviews"]
+- !private ["So13UIDynamicItemP", "listeners"]
+- !private ["So13UIDynamicItemP", "onPause"]
+- !private ["So13UIDynamicItemP", "onPlay"]
+- !private ["So13UIDynamicItemP", "onSeek"]
+- !private ["So13UIDynamicItemP", "player"]
+- !private ["So13UIDynamicItemP", "print"]
+- !private ["So18UIFocusEnvironmentP", "Bundle"]
+- !private ["So18UIFocusEnvironmentP", "ConvivaConfiguration"]
+- !private ["So18UIFocusEnvironmentP", "ConvivaContentMetadata"]
+- !private ["So18UIFocusEnvironmentP", "EventEmitter"]
+- !private ["So18UIFocusEnvironmentP", "PlayerEventTypes"]
+- !private ["So18UIFocusEnvironmentP", "THEOplayer"]
+- !private ["So18UIFocusEnvironmentP", "THEOplayerConfiguration"]
+- !private ["So18UIFocusEnvironmentP", "UIApplication"]
+- !private ["So18UIFocusEnvironmentP", "YouboraOptions"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "layoutSubviews"]
+- !private ["So18UIFocusEnvironmentP", "listeners"]
+- !private ["So18UIFocusEnvironmentP", "onPause"]
+- !private ["So18UIFocusEnvironmentP", "onPlay"]
+- !private ["So18UIFocusEnvironmentP", "onSeek"]
+- !private ["So18UIFocusEnvironmentP", "player"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So11UIFocusItemP", "Bundle"]
+- !private ["So11UIFocusItemP", "ConvivaConfiguration"]
+- !private ["So11UIFocusItemP", "ConvivaContentMetadata"]
+- !private ["So11UIFocusItemP", "EventEmitter"]
+- !private ["So11UIFocusItemP", "PlayerEventTypes"]
+- !private ["So11UIFocusItemP", "THEOplayer"]
+- !private ["So11UIFocusItemP", "THEOplayerConfiguration"]
+- !private ["So11UIFocusItemP", "UIApplication"]
+- !private ["So11UIFocusItemP", "YouboraOptions"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "fatalError"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "layoutSubviews"]
+- !private ["So11UIFocusItemP", "listeners"]
+- !private ["So11UIFocusItemP", "onPause"]
+- !private ["So11UIFocusItemP", "onPlay"]
+- !private ["So11UIFocusItemP", "onSeek"]
+- !private ["So11UIFocusItemP", "player"]
+- !private ["So11UIFocusItemP", "print"]
+- !private ["So20UIFocusItemContainerP", "Bundle"]
+- !private ["So20UIFocusItemContainerP", "ConvivaConfiguration"]
+- !private ["So20UIFocusItemContainerP", "ConvivaContentMetadata"]
+- !private ["So20UIFocusItemContainerP", "EventEmitter"]
+- !private ["So20UIFocusItemContainerP", "PlayerEventTypes"]
+- !private ["So20UIFocusItemContainerP", "THEOplayer"]
+- !private ["So20UIFocusItemContainerP", "THEOplayerConfiguration"]
+- !private ["So20UIFocusItemContainerP", "UIApplication"]
+- !private ["So20UIFocusItemContainerP", "YouboraOptions"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "fatalError"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "layoutSubviews"]
+- !private ["So20UIFocusItemContainerP", "listeners"]
+- !private ["So20UIFocusItemContainerP", "onPause"]
+- !private ["So20UIFocusItemContainerP", "onPlay"]
+- !private ["So20UIFocusItemContainerP", "onSeek"]
+- !private ["So20UIFocusItemContainerP", "player"]
+- !private ["So20UIFocusItemContainerP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "Bundle"]
+- !private ["So30UIPasteConfigurationSupportingP", "ConvivaConfiguration"]
+- !private ["So30UIPasteConfigurationSupportingP", "ConvivaContentMetadata"]
+- !private ["So30UIPasteConfigurationSupportingP", "EventEmitter"]
+- !private ["So30UIPasteConfigurationSupportingP", "PlayerEventTypes"]
+- !private ["So30UIPasteConfigurationSupportingP", "THEOplayer"]
+- !private ["So30UIPasteConfigurationSupportingP", "THEOplayerConfiguration"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- !private ["So30UIPasteConfigurationSupportingP", "YouboraOptions"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "castContextSet"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "layoutSubviews"]
+- !private ["So30UIPasteConfigurationSupportingP", "listeners"]
+- !private ["So30UIPasteConfigurationSupportingP", "onPause"]
+- !private ["So30UIPasteConfigurationSupportingP", "onPlay"]
+- !private ["So30UIPasteConfigurationSupportingP", "onSeek"]
+- !private ["So30UIPasteConfigurationSupportingP", "player"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So11UIResponderC", "AppDelegate"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "Bundle"]
+- !private ["So11UIResponderC", "ConvivaConfiguration"]
+- !private ["So11UIResponderC", "ConvivaContentMetadata"]
+- !private ["So11UIResponderC", "EventEmitter"]
+- ["So11UIResponderC", "EventListener"]
+- ["So11UIResponderC", "NSCoder"]
+- !private ["So11UIResponderC", "PlayerEventTypes"]
+- ["So11UIResponderC", "RCTBubblingEventBlock"]
+- ["So11UIResponderC", "SourceDescription"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "THEOplayer"]
+- !private ["So11UIResponderC", "THEOplayerConfiguration"]
+- !private ["So11UIResponderC", "UIApplication"]
+- !private ["So11UIResponderC", "YouboraOptions"]
+- !private ["So11UIResponderC", "castContextSet"]
+- !private ["So11UIResponderC", "delegate"]
+- !private ["So11UIResponderC", "fatalError"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "layoutSubviews"]
+- ["So11UIResponderC", "listeners"]
+- ["So11UIResponderC", "onPause"]
+- ["So11UIResponderC", "onPlay"]
+- ["So11UIResponderC", "onSeek"]
+- ["So11UIResponderC", "player"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "setAutoplay"]
+- ["So11UIResponderC", "setFullscreenOrientationCoupling"]
+- ["So11UIResponderC", "setOnPause"]
+- ["So11UIResponderC", "setOnPlay"]
+- ["So11UIResponderC", "setOnSeek"]
+- ["So11UIResponderC", "setSource"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "Bundle"]
+- !private ["So30UIResponderStandardEditActionsP", "ConvivaConfiguration"]
+- !private ["So30UIResponderStandardEditActionsP", "ConvivaContentMetadata"]
+- !private ["So30UIResponderStandardEditActionsP", "EventEmitter"]
+- !private ["So30UIResponderStandardEditActionsP", "PlayerEventTypes"]
+- !private ["So30UIResponderStandardEditActionsP", "THEOplayer"]
+- !private ["So30UIResponderStandardEditActionsP", "THEOplayerConfiguration"]
+- !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- !private ["So30UIResponderStandardEditActionsP", "YouboraOptions"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "castContextSet"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "layoutSubviews"]
+- !private ["So30UIResponderStandardEditActionsP", "listeners"]
+- !private ["So30UIResponderStandardEditActionsP", "onPause"]
+- !private ["So30UIResponderStandardEditActionsP", "onPlay"]
+- !private ["So30UIResponderStandardEditActionsP", "onSeek"]
+- !private ["So30UIResponderStandardEditActionsP", "player"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So18UITraitEnvironmentP", "Bundle"]
+- !private ["So18UITraitEnvironmentP", "ConvivaConfiguration"]
+- !private ["So18UITraitEnvironmentP", "ConvivaContentMetadata"]
+- !private ["So18UITraitEnvironmentP", "EventEmitter"]
+- !private ["So18UITraitEnvironmentP", "PlayerEventTypes"]
+- !private ["So18UITraitEnvironmentP", "THEOplayer"]
+- !private ["So18UITraitEnvironmentP", "THEOplayerConfiguration"]
+- !private ["So18UITraitEnvironmentP", "UIApplication"]
+- !private ["So18UITraitEnvironmentP", "YouboraOptions"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "layoutSubviews"]
+- !private ["So18UITraitEnvironmentP", "listeners"]
+- !private ["So18UITraitEnvironmentP", "onPause"]
+- !private ["So18UITraitEnvironmentP", "onPlay"]
+- !private ["So18UITraitEnvironmentP", "onSeek"]
+- !private ["So18UITraitEnvironmentP", "player"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So23UIUserActivityRestoringP", "Bundle"]
+- !private ["So23UIUserActivityRestoringP", "ConvivaConfiguration"]
+- !private ["So23UIUserActivityRestoringP", "ConvivaContentMetadata"]
+- !private ["So23UIUserActivityRestoringP", "EventEmitter"]
+- !private ["So23UIUserActivityRestoringP", "PlayerEventTypes"]
+- !private ["So23UIUserActivityRestoringP", "THEOplayer"]
+- !private ["So23UIUserActivityRestoringP", "THEOplayerConfiguration"]
+- !private ["So23UIUserActivityRestoringP", "UIApplication"]
+- !private ["So23UIUserActivityRestoringP", "YouboraOptions"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "castContextSet"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "fatalError"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "layoutSubviews"]
+- !private ["So23UIUserActivityRestoringP", "listeners"]
+- !private ["So23UIUserActivityRestoringP", "onPause"]
+- !private ["So23UIUserActivityRestoringP", "onPlay"]
+- !private ["So23UIUserActivityRestoringP", "onSeek"]
+- !private ["So23UIUserActivityRestoringP", "player"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["So6UIViewC", "AppDelegate"]
+- ["So6UIViewC", "Bool"]
+- !private ["So6UIViewC", "Bundle"]
+- !private ["So6UIViewC", "ConvivaConfiguration"]
+- !private ["So6UIViewC", "ConvivaContentMetadata"]
+- !private ["So6UIViewC", "EventEmitter"]
+- ["So6UIViewC", "EventListener"]
+- ["So6UIViewC", "NSCoder"]
+- !private ["So6UIViewC", "PlayerEventTypes"]
+- ["So6UIViewC", "RCTBubblingEventBlock"]
+- ["So6UIViewC", "SourceDescription"]
+- ["So6UIViewC", "String"]
+- ["So6UIViewC", "THEOplayer"]
+- !private ["So6UIViewC", "THEOplayerConfiguration"]
+- !private ["So6UIViewC", "UIApplication"]
+- !private ["So6UIViewC", "YouboraOptions"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "fatalError"]
+- !private ["So6UIViewC", "frame"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "layoutSubviews"]
+- ["So6UIViewC", "listeners"]
+- ["So6UIViewC", "onPause"]
+- ["So6UIViewC", "onPlay"]
+- ["So6UIViewC", "onSeek"]
+- ["So6UIViewC", "player"]
+- !private ["So6UIViewC", "print"]
+- ["So6UIViewC", "setAutoplay"]
+- ["So6UIViewC", "setFullscreenOrientationCoupling"]
+- ["So6UIViewC", "setOnPause"]
+- ["So6UIViewC", "setOnPlay"]
+- ["So6UIViewC", "setOnSeek"]
+- ["So6UIViewC", "setSource"]
+- !private ["13THEOplayerSDK14YouboraOptionsC", "init"]
+- !private ["13THEOplayerSDK14YouboraOptionsC", "put"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "Bundle"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "ConvivaConfiguration"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "ConvivaContentMetadata"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "EventEmitter"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "PlayerEventTypes"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "THEOplayer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "THEOplayerConfiguration"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIApplication"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "YouboraOptions"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "fatalError"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layoutSubviews"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "listeners"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "onPause"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "onPlay"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "onSeek"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "player"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "print"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ConvivaConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ConvivaContentMetadata"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EventEmitter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlayerEventTypes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "THEOplayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "THEOplayerConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "YouboraOptions"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAsSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addEventListener"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "autoplay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "autoresizingMask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "castContextSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "evaluateJavaScript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fullscreenOrientationCoupling"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layoutSubviews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "listeners"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onPause"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onPlay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onSeek"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "player"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "put"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeEventListener"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "source"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "13THEOplayerSDK20AnalyticsDescriptionP"
+- !private "So11AppDelegateC"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "So18UIViewAutoresizingV"
+- !private "SK"
+- !private "Sb"
+- !private "So8NSBundleC"
+- "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "13THEOplayerSDK20ConvivaConfigurationC"
+- !private "13THEOplayerSDK22ConvivaContentMetadataC"
+- !private "13THEOplayerSDK16CurrentTimeEventC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "13THEOplayerSDK23EventDispatcherProtocolP"
+- !private "21TheoPlayerReactNative12EventEmitterC"
+- !private "13THEOplayerSDK13EventProtocolP"
+- !private "13THEOplayerSDK9EventTypeC"
+- !private "13THEOplayerSDK17EventTypeProtocolP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "13THEOplayerSDK10PauseEventC"
+- !private "13THEOplayerSDK9PlayEventC"
+- !private "13THEOplayerSDK16PlayerEventTypesV"
+- !private "So17RCTBridgeDelegateP"
+- "So12RCTComponentP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "13THEOplayerSDK11SanitisableP"
+- !private "13THEOplayerSDK11SeekedEventC"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "13THEOplayerSDK0A0C"
+- !private "13THEOplayerSDK0A13ConfigurationC"
+- "21TheoPlayerReactNative14THEOplayerViewC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So21UIApplicationDelegateP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "13THEOplayerSDK14YouboraOptionsC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/THEOplayerSDK.framework/Modules/THEOplayerSDK.swiftmodule/x86_64.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCastContext+UI.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/THEOplayerSDK.framework/Headers/THEOplayerSDK.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKFilterCriteria.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaMetadata.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKApplicationMetadata.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKSession+Protected.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDeviceProvider+Protected.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKRemoteMediaClient+Protected.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDevice.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMultizoneDevice.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKImage.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIImageCache.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIStyle.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaTextTrackStyle.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/TheoPlayerReactNative/AppDelegate.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGameManagerState.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKPlayerState.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGameplayState.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKLobbyState.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTLog.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaTrack.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGenericChannel.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaControlChannel.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGameManagerChannel.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCastChannel.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIMediaButtonBarProtocol.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaQueueItem.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKSession.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCastSession.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaInformation.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCommon.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaCommon.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKLoggerCommon.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIButton.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUICastButton.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKAdBreakInfo.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKSenderApplicationInfo.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKVideoInfo.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKAdBreakClipInfo.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKPlayerInfo.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKNSDictionary+TypedValueLookup.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/TheoPlayerReactNative-Bridging-Header.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDeviceProvider.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDeviceManager.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKSessionManager.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTViewManager.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDiscoveryManager.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKLogger.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTEventDispatcher.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIImagePicker.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIMediaController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIPlayPauseToggleController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIDeviceVolumeController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIStreamPositionController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIMediaTrackSelectionViewController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUICastContainerViewController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIExpandedMediaControlsViewController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIMiniMediaControlsViewController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDeviceScanner.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKLoggerFilter.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTEventEmitter.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKColor.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKError.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDefines.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIStyleAttributes.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGlobalFlags.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIUtils.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKJSONUtils.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/NSTimer+GCKAdditions.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/NSDictionary+GCKAdditions.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKLaunchOptions.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCastOptions.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKSessionTraits.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIImageHints.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaStatus.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMultizoneStatus.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKAdBreakStatus.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/UIView+React.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/THEOplayerSDK.framework/Headers/THEOplayerSDK-Swift.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGameManagerResult.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKRemoteMediaClient.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDynamicFrameworkSupport.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GoogleCast.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKRequest.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCastContext.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/THEOplayerSDK.framework/Modules/module.modulemap"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Modules/module.modulemap"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e9bed40455a735b1315ea941399e7a67"

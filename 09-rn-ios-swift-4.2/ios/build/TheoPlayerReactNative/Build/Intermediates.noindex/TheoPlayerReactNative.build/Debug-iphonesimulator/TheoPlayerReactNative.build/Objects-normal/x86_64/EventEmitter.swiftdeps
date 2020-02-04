@@ -1,0 +1,457 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EventEmitter"
+provides-nominal:
+- "21TheoPlayerReactNative12EventEmitterC"
+provides-member:
+- ["21TheoPlayerReactNative12EventEmitterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&&"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Dictionary"
+- !private "Double"
+- "EventEmitter"
+- "EventListener"
+- !private "PlayerEventTypes"
+- "ReactNativeEventEmitter"
+- "String"
+- !private "StringLiteralType"
+- "THEOplayer"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SB", "isNaN"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addEventListener"]
+- !private ["s7CVarArgP", "allEvents"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isNaN"]
+- !private ["s7CVarArgP", "removeEventListener"]
+- !private ["s7CVarArgP", "sendEvent"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "isNaN"]
+- !private ["13THEOplayerSDK16CurrentTimeEventC", "currentTime"]
+- !private ["13THEOplayerSDK16CurrentTimeEventC", "type"]
+- !private ["s28CustomDebugStringConvertibleP", "addEventListener"]
+- !private ["s28CustomDebugStringConvertibleP", "allEvents"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isNaN"]
+- !private ["s28CustomDebugStringConvertibleP", "removeEventListener"]
+- !private ["s28CustomDebugStringConvertibleP", "sendEvent"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isNaN"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "addEventListener"]
+- !private ["s17CustomReflectableP", "allEvents"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isNaN"]
+- !private ["s17CustomReflectableP", "removeEventListener"]
+- !private ["s17CustomReflectableP", "sendEvent"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addEventListener"]
+- !private ["s23CustomStringConvertibleP", "allEvents"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isNaN"]
+- !private ["s23CustomStringConvertibleP", "removeEventListener"]
+- !private ["s23CustomStringConvertibleP", "sendEvent"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "addEventListener"]
+- !private ["Se", "allEvents"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "isNaN"]
+- !private ["Se", "removeEventListener"]
+- !private ["Se", "sendEvent"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["Sd", "isNaN"]
+- !private ["13THEOplayerSDK19DurationChangeEventC", "duration"]
+- !private ["13THEOplayerSDK19DurationChangeEventC", "type"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "addEventListener"]
+- !private ["SE", "allEvents"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "isNaN"]
+- !private ["SE", "removeEventListener"]
+- !private ["SE", "sendEvent"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addEventListener"]
+- !private ["SQ", "allEvents"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isNaN"]
+- !private ["SQ", "removeEventListener"]
+- !private ["SQ", "sendEvent"]
+- !private ["SQ", "subscript"]
+- !private ["13THEOplayerSDK23EventDispatcherProtocolP", "addEventListener"]
+- !private ["13THEOplayerSDK23EventDispatcherProtocolP", "removeEventListener"]
+- ["21TheoPlayerReactNative12EventEmitterC", "Bool"]
+- !private ["21TheoPlayerReactNative12EventEmitterC", "Double"]
+- ["21TheoPlayerReactNative12EventEmitterC", "EventEmitter"]
+- ["21TheoPlayerReactNative12EventEmitterC", "EventListener"]
+- !private ["21TheoPlayerReactNative12EventEmitterC", "PlayerEventTypes"]
+- ["21TheoPlayerReactNative12EventEmitterC", "ReactNativeEventEmitter"]
+- ["21TheoPlayerReactNative12EventEmitterC", "String"]
+- ["21TheoPlayerReactNative12EventEmitterC", "THEOplayer"]
+- ["21TheoPlayerReactNative12EventEmitterC", "addEventListener"]
+- ["21TheoPlayerReactNative12EventEmitterC", "dispatch"]
+- ["21TheoPlayerReactNative12EventEmitterC", "dispatchToAll"]
+- !private ["21TheoPlayerReactNative12EventEmitterC", "eventEmitter"]
+- ["21TheoPlayerReactNative12EventEmitterC", "init"]
+- !private ["21TheoPlayerReactNative12EventEmitterC", "listeners"]
+- !private ["21TheoPlayerReactNative12EventEmitterC", "player"]
+- !private ["21TheoPlayerReactNative12EventEmitterC", "print"]
+- ["21TheoPlayerReactNative12EventEmitterC", "registerEventEmitter"]
+- ["21TheoPlayerReactNative12EventEmitterC", "registerPlayer"]
+- ["21TheoPlayerReactNative12EventEmitterC", "removeAllEventListeners"]
+- ["21TheoPlayerReactNative12EventEmitterC", "sharedInstance"]
+- !private ["13THEOplayerSDK13EventProtocolP", "currentTime"]
+- !private ["13THEOplayerSDK13EventProtocolP", "duration"]
+- !private ["13THEOplayerSDK13EventProtocolP", "type"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "isNaN"]
+- !private ["s27ExpressibleByIntegerLiteralP", "isNaN"]
+- !private ["s23ExpressibleByNilLiteralP", "addEventListener"]
+- !private ["s23ExpressibleByNilLiteralP", "allEvents"]
+- !private ["s23ExpressibleByNilLiteralP", "removeEventListener"]
+- !private ["s23ExpressibleByNilLiteralP", "sendEvent"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SF", "isNaN"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addEventListener"]
+- !private ["SH", "allEvents"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isNaN"]
+- !private ["SH", "removeEventListener"]
+- !private ["SH", "sendEvent"]
+- !private ["SH", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isNaN"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSObjectC", "addEventListener"]
+- !private ["So8NSObjectC", "allEvents"]
+- !private ["So8NSObjectC", "removeEventListener"]
+- !private ["So8NSObjectC", "sendEvent"]
+- !private ["So8NSObjectP", "addEventListener"]
+- !private ["So8NSObjectP", "allEvents"]
+- !private ["So8NSObjectP", "removeEventListener"]
+- !private ["So8NSObjectP", "sendEvent"]
+- !private ["Sj", "isNaN"]
+- !private ["Sq", "addEventListener"]
+- !private ["Sq", "allEvents"]
+- !private ["Sq", "removeEventListener"]
+- !private ["Sq", "sendEvent"]
+- !private ["13THEOplayerSDK9PlayEventC", "currentTime"]
+- !private ["13THEOplayerSDK9PlayEventC", "type"]
+- !private ["13THEOplayerSDK16PlayerEventTypesV", "DURATION_CHANGE"]
+- !private ["13THEOplayerSDK16PlayerEventTypesV", "PLAY"]
+- !private ["13THEOplayerSDK16PlayerEventTypesV", "TIME_UPDATE"]
+- !private ["So15RCTBridgeModuleP", "allEvents"]
+- !private ["So15RCTBridgeModuleP", "sendEvent"]
+- !private ["So15RCTEventEmitterC", "allEvents"]
+- !private ["So15RCTEventEmitterC", "sendEvent"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["21TheoPlayerReactNative0cD12EventEmitterC", "allEvents"]
+- !private ["21TheoPlayerReactNative0cD12EventEmitterC", "sendEvent"]
+- !private ["13THEOplayerSDK11SanitisableP", "_getBuiltinLogicValue"]
+- !private ["13THEOplayerSDK11SanitisableP", "init"]
+- !private ["13THEOplayerSDK11SanitisableP", "init"]
+- !private ["13THEOplayerSDK11SanitisableP", "isNaN"]
+- !private ["13THEOplayerSDK11SanitisableP", "subscript"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s13SignedNumericP", "isNaN"]
+- !private ["Sx", "isNaN"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["13THEOplayerSDK0A0C", "addEventListener"]
+- !private ["13THEOplayerSDK0A0C", "removeEventListener"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["13THEOplayerSDK15TimeUpdateEventC", "currentTime"]
+- !private ["13THEOplayerSDK15TimeUpdateEventC", "type"]
+- !private ["s15_CVarArgAlignedP", "isNaN"]
+- !private ["s22_CVarArgPassedAsDoubleP", "isNaN"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "isNaN"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "isNaN"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isNaN"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addEventListener"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allEvents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeEventListener"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendEvent"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "addEventListener"]
+- !private ["s21_ObjectiveCBridgeableP", "allEvents"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isNaN"]
+- !private ["s21_ObjectiveCBridgeableP", "removeEventListener"]
+- !private ["s21_ObjectiveCBridgeableP", "sendEvent"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "SB"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "13THEOplayerSDK16CurrentTimeEventC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "Sd"
+- !private "13THEOplayerSDK19DurationChangeEventC"
+- !private "SE"
+- !private "SQ"
+- !private "13THEOplayerSDK23EventDispatcherProtocolP"
+- "21TheoPlayerReactNative12EventEmitterC"
+- !private "13THEOplayerSDK13EventProtocolP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sj"
+- !private "Sq"
+- !private "13THEOplayerSDK9PlayEventC"
+- !private "13THEOplayerSDK16PlayerEventTypesV"
+- !private "So15RCTBridgeModuleP"
+- !private "So15RCTEventEmitterC"
+- !private "Sm"
+- !private "21TheoPlayerReactNative0cD12EventEmitterC"
+- !private "13THEOplayerSDK11SanitisableP"
+- !private "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "13THEOplayerSDK0A0C"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "13THEOplayerSDK15TimeUpdateEventC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/THEOplayerSDK.framework/Modules/THEOplayerSDK.swiftmodule/x86_64.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCastContext+UI.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/THEOplayerSDK.framework/Headers/THEOplayerSDK.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKFilterCriteria.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaMetadata.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKApplicationMetadata.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKSession+Protected.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDeviceProvider+Protected.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKRemoteMediaClient+Protected.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDevice.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMultizoneDevice.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKImage.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIImageCache.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIStyle.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaTextTrackStyle.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/TheoPlayerReactNative/AppDelegate.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGameManagerState.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKPlayerState.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGameplayState.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKLobbyState.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTLog.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaTrack.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGenericChannel.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaControlChannel.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGameManagerChannel.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCastChannel.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIMediaButtonBarProtocol.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaQueueItem.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKSession.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCastSession.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaInformation.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCommon.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaCommon.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKLoggerCommon.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIButton.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUICastButton.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKAdBreakInfo.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKSenderApplicationInfo.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKVideoInfo.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKAdBreakClipInfo.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKPlayerInfo.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKNSDictionary+TypedValueLookup.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/TheoPlayerReactNative-Bridging-Header.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDeviceProvider.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDeviceManager.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKSessionManager.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTViewManager.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDiscoveryManager.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKLogger.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTEventDispatcher.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIImagePicker.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIMediaController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIPlayPauseToggleController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIDeviceVolumeController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIStreamPositionController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIMediaTrackSelectionViewController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUICastContainerViewController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIExpandedMediaControlsViewController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIMiniMediaControlsViewController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDeviceScanner.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKLoggerFilter.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTEventEmitter.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKColor.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKError.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDefines.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIStyleAttributes.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGlobalFlags.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIUtils.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKJSONUtils.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/NSTimer+GCKAdditions.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/NSDictionary+GCKAdditions.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKLaunchOptions.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCastOptions.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKSessionTraits.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIImageHints.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaStatus.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMultizoneStatus.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKAdBreakStatus.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/UIView+React.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/THEOplayerSDK.framework/Headers/THEOplayerSDK-Swift.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGameManagerResult.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKRemoteMediaClient.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDynamicFrameworkSupport.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GoogleCast.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKRequest.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCastContext.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/THEOplayerSDK.framework/Modules/module.modulemap"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Modules/module.modulemap"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "578ee0b8a3d90fe0bc36205dd8eb93b9"

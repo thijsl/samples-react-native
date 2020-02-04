@@ -1,0 +1,580 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So10RCTConvertC", ""]
+- ["So10RCTConvertC", "typedSource"]
+- ["So10RCTConvertC", "typedSourceArray"]
+- ["So10RCTConvertC", "adDescription"]
+- ["So10RCTConvertC", "adDescriptionArray"]
+- ["So10RCTConvertC", "textTrack"]
+- ["So10RCTConvertC", "textTrackArray"]
+- ["So10RCTConvertC", "sourceDescription"]
+provides-dynamic-lookup:
+- "adDescription"
+- "adDescriptionArray"
+- "sourceDescription"
+- "textTrack"
+- "textTrackArray"
+- "typedSource"
+- "typedSourceArray"
+depends-top-level:
+- !private ">"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "EzdrmDRMConfiguration"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "RCTConvert"
+- !private "RCTConvertArrayValue"
+- "SourceDescription"
+- "String"
+- !private "StringLiteralType"
+- "THEOAdDescription"
+- !private "THEOplayerSDK"
+- "TernaryPrecedence"
+- "TextTrackDescription"
+- !private "TextTrackKind"
+- "TypedSource"
+- !private "UplynkDRMConfiguration"
+- !private "~="
+depends-member:
+- !private ["13THEOplayerSDK13AdDescriptionP", "init"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "count"]
+- !private ["s13ArrayProtocolP", "compactMap"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["SK", "compactMap"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "EzdrmDRMConfiguration"]
+- !private ["s7CVarArgP", "RCTConvert"]
+- !private ["s7CVarArgP", "RCTConvertArrayValue"]
+- !private ["s7CVarArgP", "SourceDescription"]
+- !private ["s7CVarArgP", "THEOAdDescription"]
+- !private ["s7CVarArgP", "TextTrackDescription"]
+- !private ["s7CVarArgP", "TextTrackKind"]
+- !private ["s7CVarArgP", "TypedSource"]
+- !private ["s7CVarArgP", "UplynkDRMConfiguration"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "adDescription"]
+- !private ["s7CVarArgP", "adDescriptionArray"]
+- !private ["s7CVarArgP", "bool"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "nsDictionary"]
+- !private ["s7CVarArgP", "nsString"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "textTrack"]
+- !private ["s7CVarArgP", "textTrackArray"]
+- !private ["s7CVarArgP", "typedSource"]
+- !private ["s7CVarArgP", "typedSourceArray"]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "EzdrmDRMConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "RCTConvert"]
+- !private ["s28CustomDebugStringConvertibleP", "RCTConvertArrayValue"]
+- !private ["s28CustomDebugStringConvertibleP", "SourceDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "THEOAdDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "TextTrackDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "TextTrackKind"]
+- !private ["s28CustomDebugStringConvertibleP", "TypedSource"]
+- !private ["s28CustomDebugStringConvertibleP", "UplynkDRMConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "adDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "adDescriptionArray"]
+- !private ["s28CustomDebugStringConvertibleP", "bool"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "nsDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "nsString"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "textTrack"]
+- !private ["s28CustomDebugStringConvertibleP", "textTrackArray"]
+- !private ["s28CustomDebugStringConvertibleP", "typedSource"]
+- !private ["s28CustomDebugStringConvertibleP", "typedSourceArray"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "EzdrmDRMConfiguration"]
+- !private ["s23CustomStringConvertibleP", "RCTConvert"]
+- !private ["s23CustomStringConvertibleP", "RCTConvertArrayValue"]
+- !private ["s23CustomStringConvertibleP", "SourceDescription"]
+- !private ["s23CustomStringConvertibleP", "THEOAdDescription"]
+- !private ["s23CustomStringConvertibleP", "TextTrackDescription"]
+- !private ["s23CustomStringConvertibleP", "TextTrackKind"]
+- !private ["s23CustomStringConvertibleP", "TypedSource"]
+- !private ["s23CustomStringConvertibleP", "UplynkDRMConfiguration"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "adDescription"]
+- !private ["s23CustomStringConvertibleP", "adDescriptionArray"]
+- !private ["s23CustomStringConvertibleP", "bool"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "nsDictionary"]
+- !private ["s23CustomStringConvertibleP", "nsString"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "textTrack"]
+- !private ["s23CustomStringConvertibleP", "textTrackArray"]
+- !private ["s23CustomStringConvertibleP", "typedSource"]
+- !private ["s23CustomStringConvertibleP", "typedSourceArray"]
+- !private ["13THEOplayerSDK16DRMConfigurationP", "init"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "count"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "count"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "EzdrmDRMConfiguration"]
+- !private ["SQ", "RCTConvert"]
+- !private ["SQ", "RCTConvertArrayValue"]
+- !private ["SQ", "SourceDescription"]
+- !private ["SQ", "THEOAdDescription"]
+- !private ["SQ", "TextTrackDescription"]
+- !private ["SQ", "TextTrackKind"]
+- !private ["SQ", "TypedSource"]
+- !private ["SQ", "UplynkDRMConfiguration"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "adDescription"]
+- !private ["SQ", "adDescriptionArray"]
+- !private ["SQ", "bool"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "count"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "nsDictionary"]
+- !private ["SQ", "nsString"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "textTrack"]
+- !private ["SQ", "textTrackArray"]
+- !private ["SQ", "typedSource"]
+- !private ["SQ", "typedSourceArray"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "compactMap"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["13THEOplayerSDK21EzdrmDRMConfigurationC", "init"]
+- !private ["13THEOplayerSDK32FairPlayDRMConfigurationProtocolP", "init"]
+- !private ["SH", "EzdrmDRMConfiguration"]
+- !private ["SH", "RCTConvert"]
+- !private ["SH", "RCTConvertArrayValue"]
+- !private ["SH", "SourceDescription"]
+- !private ["SH", "THEOAdDescription"]
+- !private ["SH", "TextTrackDescription"]
+- !private ["SH", "TextTrackKind"]
+- !private ["SH", "TypedSource"]
+- !private ["SH", "UplynkDRMConfiguration"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "adDescription"]
+- !private ["SH", "adDescriptionArray"]
+- !private ["SH", "bool"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "count"]
+- !private ["SH", "flatMap"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "nsDictionary"]
+- !private ["SH", "nsString"]
+- !private ["SH", "subscript"]
+- !private ["SH", "textTrack"]
+- !private ["SH", "textTrackArray"]
+- !private ["SH", "typedSource"]
+- !private ["SH", "typedSourceArray"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "compactMap"]
+- !private ["SM", "count"]
+- ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "EzdrmDRMConfiguration"]
+- !private ["So8NSObjectC", "RCTConvert"]
+- !private ["So8NSObjectC", "RCTConvertArrayValue"]
+- ["So8NSObjectC", "SourceDescription"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "THEOAdDescription"]
+- !private ["So8NSObjectC", "THEOplayerSDK"]
+- ["So8NSObjectC", "TextTrackDescription"]
+- !private ["So8NSObjectC", "TextTrackKind"]
+- ["So8NSObjectC", "TypedSource"]
+- !private ["So8NSObjectC", "UplynkDRMConfiguration"]
+- ["So8NSObjectC", "adDescription"]
+- ["So8NSObjectC", "adDescriptionArray"]
+- !private ["So8NSObjectC", "bool"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "nsDictionary"]
+- !private ["So8NSObjectC", "nsString"]
+- ["So8NSObjectC", "sourceDescription"]
+- ["So8NSObjectC", "textTrack"]
+- ["So8NSObjectC", "textTrackArray"]
+- ["So8NSObjectC", "typedSource"]
+- ["So8NSObjectC", "typedSourceArray"]
+- !private ["So8NSObjectP", "EzdrmDRMConfiguration"]
+- !private ["So8NSObjectP", "RCTConvert"]
+- !private ["So8NSObjectP", "RCTConvertArrayValue"]
+- !private ["So8NSObjectP", "SourceDescription"]
+- !private ["So8NSObjectP", "THEOAdDescription"]
+- !private ["So8NSObjectP", "TextTrackDescription"]
+- !private ["So8NSObjectP", "TextTrackKind"]
+- !private ["So8NSObjectP", "TypedSource"]
+- !private ["So8NSObjectP", "UplynkDRMConfiguration"]
+- !private ["So8NSObjectP", "adDescription"]
+- !private ["So8NSObjectP", "adDescriptionArray"]
+- !private ["So8NSObjectP", "bool"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "nsDictionary"]
+- !private ["So8NSObjectP", "nsString"]
+- !private ["So8NSObjectP", "textTrack"]
+- !private ["So8NSObjectP", "textTrackArray"]
+- !private ["So8NSObjectP", "typedSource"]
+- !private ["So8NSObjectP", "typedSourceArray"]
+- !private ["Sq", "compactMap"]
+- !private ["Sq", "flatMap"]
+- ["So10RCTConvertC", "AnyObject"]
+- !private ["So10RCTConvertC", "EzdrmDRMConfiguration"]
+- !private ["So10RCTConvertC", "RCTConvert"]
+- !private ["So10RCTConvertC", "RCTConvertArrayValue"]
+- ["So10RCTConvertC", "SourceDescription"]
+- ["So10RCTConvertC", "String"]
+- ["So10RCTConvertC", "THEOAdDescription"]
+- !private ["So10RCTConvertC", "THEOplayerSDK"]
+- ["So10RCTConvertC", "TextTrackDescription"]
+- !private ["So10RCTConvertC", "TextTrackKind"]
+- ["So10RCTConvertC", "TypedSource"]
+- !private ["So10RCTConvertC", "UplynkDRMConfiguration"]
+- ["So10RCTConvertC", "adDescription"]
+- ["So10RCTConvertC", "adDescriptionArray"]
+- !private ["So10RCTConvertC", "bool"]
+- !private ["So10RCTConvertC", "nsDictionary"]
+- !private ["So10RCTConvertC", "nsString"]
+- ["So10RCTConvertC", "sourceDescription"]
+- ["So10RCTConvertC", "textTrack"]
+- ["So10RCTConvertC", "textTrackArray"]
+- ["So10RCTConvertC", "typedSource"]
+- ["So10RCTConvertC", "typedSourceArray"]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "count"]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "init"]
+- !private ["SY", "init"]
+- !private ["13THEOplayerSDK11SanitisableP", "_getBuiltinLogicValue"]
+- !private ["13THEOplayerSDK11SanitisableP", "compactMap"]
+- !private ["13THEOplayerSDK11SanitisableP", "count"]
+- !private ["13THEOplayerSDK11SanitisableP", "init"]
+- !private ["13THEOplayerSDK11SanitisableP", "init"]
+- !private ["13THEOplayerSDK11SanitisableP", "subscript"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["13THEOplayerSDK17SourceDescriptionC", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["13THEOplayerSDK17THEOAdDescriptionC", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["13THEOplayerSDK20TextTrackDescriptionC", "init"]
+- !private ["13THEOplayerSDK13TextTrackKindO", "init"]
+- !private ["13THEOplayerSDK13TextTrackKindO", "init"]
+- !private ["13THEOplayerSDK11TypedSourceC", "init"]
+- !private ["13THEOplayerSDK22UplynkDRMConfigurationC", "init"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EzdrmDRMConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RCTConvert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RCTConvertArrayValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SourceDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "THEOAdDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TextTrackDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TextTrackKind"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TypedSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UplynkDRMConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "adDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "adDescriptionArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bool"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nsDictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nsString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textTrack"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textTrackArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "typedSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "typedSourceArray"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "13THEOplayerSDK13AdDescriptionP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "13THEOplayerSDK16DRMConfigurationP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "13THEOplayerSDK21EzdrmDRMConfigurationC"
+- !private "13THEOplayerSDK32FairPlayDRMConfigurationProtocolP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sq"
+- "So10RCTConvertC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "13THEOplayerSDK11SanitisableP"
+- !private "ST"
+- !private "13THEOplayerSDK17SourceDescriptionC"
+- !private "SS"
+- !private "Sy"
+- !private "13THEOplayerSDK17THEOAdDescriptionC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "13THEOplayerSDK20TextTrackDescriptionC"
+- !private "13THEOplayerSDK13TextTrackKindO"
+- !private "13THEOplayerSDK11TypedSourceC"
+- !private "13THEOplayerSDK22UplynkDRMConfigurationC"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/THEOplayerSDK.framework/Modules/THEOplayerSDK.swiftmodule/x86_64.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCastContext+UI.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/THEOplayerSDK.framework/Headers/THEOplayerSDK.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKFilterCriteria.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaMetadata.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKApplicationMetadata.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKSession+Protected.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDeviceProvider+Protected.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKRemoteMediaClient+Protected.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDevice.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMultizoneDevice.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKImage.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIImageCache.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIStyle.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaTextTrackStyle.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/TheoPlayerReactNative/AppDelegate.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGameManagerState.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKPlayerState.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGameplayState.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKLobbyState.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTLog.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaTrack.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGenericChannel.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaControlChannel.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGameManagerChannel.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCastChannel.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIMediaButtonBarProtocol.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaQueueItem.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKSession.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCastSession.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaInformation.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCommon.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaCommon.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKLoggerCommon.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIButton.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUICastButton.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKAdBreakInfo.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKSenderApplicationInfo.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKVideoInfo.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKAdBreakClipInfo.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKPlayerInfo.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKNSDictionary+TypedValueLookup.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/TheoPlayerReactNative-Bridging-Header.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDeviceProvider.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDeviceManager.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKSessionManager.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTViewManager.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDiscoveryManager.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKLogger.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTEventDispatcher.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIImagePicker.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIMediaController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIPlayPauseToggleController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIDeviceVolumeController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIStreamPositionController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIMediaTrackSelectionViewController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUICastContainerViewController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIExpandedMediaControlsViewController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIMiniMediaControlsViewController.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDeviceScanner.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKLoggerFilter.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTEventEmitter.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKColor.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKError.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDefines.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIStyleAttributes.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGlobalFlags.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIUtils.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKJSONUtils.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/NSTimer+GCKAdditions.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/NSDictionary+GCKAdditions.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKLaunchOptions.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCastOptions.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKSessionTraits.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKUIImageHints.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMediaStatus.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKMultizoneStatus.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKAdBreakStatus.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/UIView+React.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/THEOplayerSDK.framework/Headers/THEOplayerSDK-Swift.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKGameManagerResult.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKRemoteMediaClient.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKDynamicFrameworkSupport.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GoogleCast.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKRequest.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Headers/GCKCastContext.h"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/THEOplayerSDK.framework/Modules/module.modulemap"
+- "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/GoogleCast.framework/Modules/module.modulemap"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Users/appledeveloper/Downloads/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1d81448f103572687cd4894b5196228c"

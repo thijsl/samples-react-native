@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/node_modules/react-native/React/Base/RCTJavaScriptLoader.mm \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/React-cxxreact/cxxreact/JSBundleType.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Folly/folly/Portability.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Folly/folly/CPortability.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Private/React-Core/React/RCTBridgeDelegate.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Private/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Private/React-Core/React/RCTBridgeModule.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Private/React-Core/React/RCTFrameUpdate.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Private/React-Core/React/RCTInvalidating.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Private/React-Core/React/RCTAnimationType.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Private/React-Core/React/RCTBorderStyle.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Private/React-Core/React/RCTLog.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Private/React-Core/React/RCTAssert.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Private/React-Core/React/RCTUtils.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Private/React-Core/React/RCTPointerEvents.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Private/React-Core/React/RCTTextDecorationLineType.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/Pods/Headers/Private/React-Core/React/RCTMultipartStreamReader.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/node_modules/react-native/React/Base/RCTPerformanceLogger.h \
+  /Users/appledeveloper/Dev/Theoplayer/reactnative-app/node_modules/react-native/React/Base/RCTUtils.h

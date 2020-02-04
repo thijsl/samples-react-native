@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "70375b9f3a993eefd5404b8f5eeffe9b"
+build_time: [1574947063, 88741000]
+inputs:
+  "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/THEOplayerView+Convert.swift": [1574862908, 0]
+  "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/ReactNativeEventEmitter.swift": [1574665880, 0]
+  "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/THEOplayerViewManager.swift": [1574862908, 0]
+  "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/THEOplayerView.swift": [1574862908, 0]
+  "/Users/appledeveloper/Dev/Theoplayer/reactnative-app/ios/EventEmitter.swift": [1574686070, 0]
