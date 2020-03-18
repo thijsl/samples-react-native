@@ -65,7 +65,7 @@ import THEOplayerSDK
     @objc(TextTrack:)
     class func textTrack(_ json: [String:AnyObject]) -> TextTrackDescription? {
         if let src = json["src"].flatMap(RCTConvert.nsString),
-            let srclang = json["srcLang"].flatMap(RCTConvert.nsString) {
+            let srclang = json["srclang"].flatMap(RCTConvert.nsString) {
             return TextTrackDescription(
                 src: src,
                 srclang: srclang,
