@@ -1,5 +1,10 @@
 # THEOplayer React Native Reference App
 
+## License
+This projects falls under the license as defined in https://github.com/THEOplayer/license-and-disclaimer.
+
+## Introduction
+
 THEO Technologies does not provide THEOplayer React Native components. These apps describes how our current THEOplayer iOS and Android SDKs can be wrapped in React Native Bridges. The sample React Native bridge code is provided AS-IS without any explicit nor implicit guarantees. The React Native bridge sample code only provides mapping for a number of commonly used THEOplayer APIs, it is the customer’s responsibility to further expand the mapping and subsequently maintain the code and ensure compatibility with future versions of THEOplayer SDKs.
 
 
@@ -24,6 +29,3 @@ Below are the example apps which define the following usecases in iOS and Androi
 
 ## Streams/Content Rights:
 The streams are provided by our Partner -[EZ DRM](https://ezdrm.com/) and hold all the rights for the content. These streams are DRM protected and cannot be used for any other purposes. 
-
-## License
-This project is licensed under the BSD 3 Clause License - see the [LICENSE ](LICENSE) file for details
