@@ -4,8 +4,6 @@ import THEOplayerView from './THEOplayerView'
 
 export default class TheoPlayerViewScreen extends React.Component {
     render() {
-        let jsPath = [];
-        let cssPath = [];
         /*
           Problem on android fullscreen change with theoplayer scaling when ScrollView component is set
         */
@@ -19,8 +17,6 @@ export default class TheoPlayerViewScreen extends React.Component {
         };
 
         if (Platform.OS === 'android') {
-            jsPath = ['file:///android_asset/js/theoplayer.js'];
-            cssPath = ['file:///android_asset/css/theoplayer.css'];
             playerStyle.width = Math.floor(Dimensions.get('window').width);
         } else {
             BaseComponent = ScrollView;
@@ -32,8 +28,6 @@ export default class TheoPlayerViewScreen extends React.Component {
                     <THEOplayerView
                         style={playerStyle}
                         fullscreenOrientationCoupling={true}
-                        defaultCssPaths={cssPath}
-                        defaultJsPaths={jsPath}
                         autoplay={true}
                         source={
                             {

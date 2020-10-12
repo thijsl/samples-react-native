@@ -50,8 +50,6 @@ export default class TheoPlayerViewScreen extends React.Component {
     }
 
     render() {
-        let jsPath = [];
-        let cssPath = [];
         let drmExampleSourceConfiguration = null;
         /*
           Problem on android fullscreen change with theoplayer scaling when ScrollView component is set
@@ -66,8 +64,6 @@ export default class TheoPlayerViewScreen extends React.Component {
         };
 
         if (Platform.OS === 'android') {
-            jsPath = ['file:///android_asset/js/theoplayer.js'];
-            cssPath = ['file:///android_asset/css/theoplayer.css'];
             playerStyle.width = Math.floor(Dimensions.get('window').width);
             drmExampleSourceConfiguration = {
                  sources: [{
@@ -106,8 +102,6 @@ export default class TheoPlayerViewScreen extends React.Component {
                       style={playerStyle}
                       fullscreenOrientationCoupling={true}
                       autoplay={true}
-                      defaultCssPaths={cssPath}
-                      defaultJsPaths={jsPath}
                       onSeek={(e) => {
                           console.log('Seek changed: ' + JSON.stringify(e.nativeEvent))
                       }}

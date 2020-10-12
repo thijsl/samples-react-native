@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CustomFullScreenActivity">
+
+    <FrameLayout
+        android:id="@+id/controlsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/controlsOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/spaceMargin">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/playPauseButton"
+                style="?attr/materialImageButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/spaceMargin"
+                app:icon="@drawable/ic_play" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/replayButton"
+                style="?attr/materialImageButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/spaceMargin"
+                android:layout_toLeftOf="@id/playPauseButton"
+                app:icon="@drawable/ic_replay" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/forwardButton"
+                style="?attr/materialImageButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/spaceMargin"
+                android:layout_toRightOf="@id/playPauseButton"
+                app:icon="@drawable/ic_forward" />
+
+            <TextView
+                android:id="@+id/progressText"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="6dp"
+                android:gravity="center"
+                android:text="00:00"
+                android:textColor="@color/theoWhite"
+                android:textSize="18sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/exitFullScreenButton"
+                style="?attr/materialImageButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/spaceMargin"
+                app:icon="@drawable/ic_fullscreen_exit" />
+
+            <TextView
+                android:id="@+id/totalTime"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="6dp"
+                android:gravity="center"
+                android:text="10:00"
+                android:textColor="@color/theoWhite"
+                android:layout_toLeftOf="@id/exitFullScreenButton"
+                android:textSize="18sp" />
+
+            <SeekBar
+                android:id="@+id/seek_bar"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="6dp"
+                android:layout_toLeftOf="@id/totalTime"
+                android:layout_toRightOf="@id/progressText" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+</layout>

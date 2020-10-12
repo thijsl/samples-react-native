@@ -66,10 +66,13 @@ public class TheoPlayerViewManager extends SimpleViewManager<THEOplayerView> imp
         */
         THEOplayerConfig playerConfig = new THEOplayerConfig.Builder()
                 // .googleIma(true)
+                .jsPaths("file:///android_asset/js/theoplayer.js")
+                .cssPaths("file:///android_asset/css/theoplayer.css")
                 .build();
 
         playerView = new THEOplayerView(reactContext.getCurrentActivity(), playerConfig);
         playerView.setLayoutParams(new LinearLayout.LayoutParams(MATCH_PARENT, MATCH_PARENT));
+        playerView.evaluateJavaScript("init({player: player})", null);
         addPropertyChangeListeners(reactContext);
         reactContext.addLifecycleEventListener(this);
 
@@ -133,53 +136,6 @@ public class TheoPlayerViewManager extends SimpleViewManager<THEOplayerView> imp
         SourceDescription sourceDescription = SourceHelper.parseSourceFromJS(source);
         if (sourceDescription != null) {
             playerView.getPlayer().setSource(sourceDescription);
-        }
-    }
-
-    @ReactProp(name = "defaultCssPaths")
-    public void setDefaultCssPaths(View view, @Nullable ReadableArray defaultCssPaths) {
-        try {
-            Field declaredField = playerView.getClass().getDeclaredField("stateWrapper");
-            declaredField.setAccessible(true);
-            THEOplayerView.StateWrapper wrapper = (THEOplayerView.StateWrapper) declaredField.get(playerView);
-            THEOplayerConfig config = wrapper.config;
-            Field cssPathsField = config.getClass().getDeclaredField("cssPaths");
-            cssPathsField.setAccessible(true);
-            List<String> cssPaths = (List<String>) cssPathsField.get(config);
-
-            for (Object o : defaultCssPaths.toArrayList()) {
-                cssPaths.add((String) o);
-            }
-
-        } catch (Exception exception) {
-            Log.e("CSS PATHS", "Error: " + exception);
-        }
-    }
-
-
-    @ReactProp(name = "defaultJsPaths")
-    public void setDefaultJsPaths(View view, @Nullable ReadableArray defaultJsPaths) {
-        try {
-            Field declaredField = playerView.getClass().getDeclaredField("stateWrapper");
-            declaredField.setAccessible(true);
-            THEOplayerView.StateWrapper wrapper = (THEOplayerView.StateWrapper) declaredField.get(playerView);
-            THEOplayerConfig config = wrapper.config;
-            Field jsPathsField = config.getClass().getDeclaredField("jsPaths");
-            jsPathsField.setAccessible(true);
-            List<String> jsPaths = (List<String>) jsPathsField.get(config);
-
-            for (Object o : defaultJsPaths.toArrayList()) {
-               jsPaths.add((String) o);
-            }
-
-            /*
-                Evaluate main script function declarated in theoplayer.js(custom js)
-                You can init pure js code without file by evaluateJavaScript.
-             */
-            playerView.evaluateJavaScript("init({player: player})", null);
-
-        } catch (Exception exception) {
-            Log.e("JS PATHS", "Error: " + exception);
         }
     }
 

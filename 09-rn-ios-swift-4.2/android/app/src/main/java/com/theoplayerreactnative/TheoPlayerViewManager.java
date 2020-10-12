@@ -199,52 +199,6 @@ public class TheoPlayerViewManager extends SimpleViewManager<THEOplayerView> imp
         }
     }
 
-    @ReactProp(name = "defaultCssPaths")
-    public void setDefaultCssPaths(View view, @Nullable ReadableArray defaultCssPaths) {
-        try {
-            Field declaredField = playerView.getClass().getDeclaredField("stateWrapper");
-            declaredField.setAccessible(true);
-            THEOplayerView.StateWrapper wrapper = (THEOplayerView.StateWrapper) declaredField.get(playerView);
-            THEOplayerConfig config = wrapper.config;
-            Field cssPathsField = config.getClass().getDeclaredField("cssPaths");
-            cssPathsField.setAccessible(true);
-            List<String> cssPaths = (List<String>) cssPathsField.get(config);
-
-            for (Object o : defaultCssPaths.toArrayList()) {
-                cssPaths.add((String) o);
-            }
-
-        } catch (Exception exception) {
-            Log.e("CSS PATHS", "Error: " + exception);
-        }
-    }
-
-    @ReactProp(name = "defaultJsPaths")
-    public void setDefaultJsPaths(View view, @Nullable ReadableArray defaultJsPaths) {
-        try {
-            Field declaredField = playerView.getClass().getDeclaredField("stateWrapper");
-            declaredField.setAccessible(true);
-            THEOplayerView.StateWrapper wrapper = (THEOplayerView.StateWrapper) declaredField.get(playerView);
-            THEOplayerConfig config = wrapper.config;
-            Field jsPathsField = config.getClass().getDeclaredField("jsPaths");
-            jsPathsField.setAccessible(true);
-            List<String> jsPaths = (List<String>) jsPathsField.get(config);
-
-            for (Object o : defaultJsPaths.toArrayList()) {
-               jsPaths.add((String) o);
-            }
-
-            /*
-                Evaluate main script function declarated in theoplayer.js(custom js)
-                You can init pure js code without file by evaluateJavaScript.
-             */
-            playerView.evaluateJavaScript("init({player: player})", null);
-
-        } catch (Exception exception) {
-            Log.e("JS PATHS", "Error: " + exception);
-        }
-    }
-
     public Map getExportedCustomBubblingEventTypeConstants() {
         return MapBuilder.builder()
                 .put(
